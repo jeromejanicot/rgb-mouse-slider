@@ -100,6 +100,7 @@ button:focus-visible {
   width: 150px;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   position: relative;
   align-items: center;
   justify-content: center;

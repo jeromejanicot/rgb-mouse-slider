@@ -11,9 +11,9 @@ export const MouseSlider = () => {
       className="mouse_slider_container"
       style={{ backgroundColor: `rgb(${r}, ${g}, ${b})` }}
     >
-      <Box RGB="R" setRGB={setR} />
-      <Box RGB="G" setRGB={setG} />
-      <Box RGB="B" setRGB={setB} />
+      <Box RGB="R" setRGB={setR} rbgVal={r} />
+      <Box RGB="G" setRGB={setG} rbgVal={g} />
+      <Box RGB="B" setRGB={setB} rbgVal={b} />
     </div>
   );
 };
